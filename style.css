@@ -187,7 +187,9 @@ button {
     margin-top: 15px;
     width: 158px;
     padding: 8px;
-    color:black:
+    h3{
+      color:black;
+    }
     border-radius: 10px;
     background-color: yellow;
   }
@@ -210,6 +212,7 @@ button {
       border-radius: 10px;
       h4 {
         padding-bottom: 10px;
+        color:black;
       }
       h2 {
         padding-bottom: 10px;
@@ -224,9 +227,7 @@ button {
       padding: 10px;
     }
   }
-  h4 {
-    color: black;
-  }
+  
 }
 
 .three {

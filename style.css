@@ -108,6 +108,10 @@ button {
     width: 64px;
     border: 1px solid black;
   }
+  .mtn2{
+    width: 50px;
+    
+  }
 }
 .artime1 {
   cursor: pointer;
@@ -147,7 +151,7 @@ button {
     padding: 10px;
   }
   .heads {
-    background-color: rgb(199, 199, 4);
+    background-color: yellow;
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
@@ -182,7 +186,7 @@ button {
     width: 158px;
     padding: 8px;
     border-radius: 10px;
-    background-color: rgb(199, 199, 4);
+    background-color: yellow;
   }
   .express1 {
     padding: 10px;
@@ -193,7 +197,7 @@ button {
     padding: 10px;
     justify-content: space-around;
     div {
-      background-color: rgb(199, 199, 4);
+      background-color: yellow;
 
       display: flex;
       justify-content: center;
@@ -227,7 +231,7 @@ button {
     padding: 10px;
   }
   .heads {
-    background-color: rgb(172, 3, 3);
+    background-color: red;
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
@@ -262,7 +266,7 @@ button {
     width: 158px;
     padding: 8px;
     border-radius: 10px;
-    background-color: rgb(172, 3, 3);
+    background-color: red;
   }
   .express1 {
     padding: 10px;
@@ -273,7 +277,7 @@ button {
     padding: 10px;
     justify-content: space-around;
     div {
-      background-color: rgb(172, 3, 3);
+      background-color: red;
 
       display: flex;
       justify-content: center;
@@ -306,7 +310,7 @@ button {
     padding: 10px;
   }
   .heads {
-    background-color: rgb(5, 5, 212);
+    background-color: blue;
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
@@ -341,7 +345,7 @@ button {
     width: 158px;
     padding: 8px;
     border-radius: 10px;
-    background-color: rgb(5, 5, 212);
+    background-color: blue;
   }
   .express1 {
     padding: 10px;
@@ -352,7 +356,7 @@ button {
     padding: 10px;
     justify-content: space-around;
     div {
-      background-color: rgb(5, 5, 212);
+      background-color: blue;
 
       display: flex;
       justify-content: center;

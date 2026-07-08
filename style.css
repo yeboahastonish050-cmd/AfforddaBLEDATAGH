@@ -156,7 +156,7 @@ button {
     border-radius: 20px;
     display: flex;
     margin-top: 10px;
-    padding: 5px;
+    padding: 20px;
     justify-content: space-evenly;
     align-items: center;
     h3 {
@@ -189,7 +189,7 @@ button {
     background-color: yellow;
   }
   .express1 {
-    padding: 10px;
+    padding: 30px;
   }
   .contain {
     margin-bottom: 10px;

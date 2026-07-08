@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: white;
+  max-width: 375px;
+  min-width: 320px;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: black;
+
+  .fa {
+    cursor: pointer;
+  }
+}
+nav {
+  width: 100%;
+}
+.hr {
+  z-index: -1;
+  width: 100%;
+}
+.menu {
+  display: none;
+  height: 100px;
+  background-color: black;
+  width: 150px;
+  margin-top: -760px;
+  margin-left: 220px;
+  ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    li {
+      list-style: none;
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
+}
+.header {
+  z-index: -1;
+
+  h2 {
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  p {
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 20px;
+  }
+}
+.heading {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  p {
+    color: black;
+  }
+}
+button {
+  background-color: white;
+  width: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 16px;
+  .small {
+    width: 50px;
+    border-radius: 20px;
+  }
+}
+.footer {
+  margin-top: 16px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  position: fixed;
+  width: 100%;
+}
+.artime {
+  width: 150px;
+  border: 2px solid red;
+  padding: 6px;
+  margin-top: 10px;
+  .mtn {
+    width: 75px;
+  }
+  .mtn1 {
+    width: 64px;
+    border: 1px solid black;
+  }
+}
+.artime1 {
+  cursor: pointer;
+}
+.MTN {
+  margin-top: 10px;
+  width: 150px;
+  border: 2px solid red;
+}
+.MTN1 {
+  cursor: pointer;
+}
+.TELECEL {
+  cursor: pointer;
+}
+.AIRTELTIGO {
+  cursor: pointer;
+}
+.MTN2 {
+  width: 150px;
+  padding-bottom: 32px;
+  border: 2px solid red;
+  margin-top: 10px;
+}
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.two {
+  display: none;
+}
+
+.two {
+  .header {
+    padding: 10px;
+  }
+  .heads {
+    background-color: rgb(199, 199, 4);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    h3 {
+      color: white;
+    }
+    p {
+      color: aqua;
+    }
+  }
+  .head1 {
+    display: flex;
+    padding: 10px;
+    button {
+      width: 100px;
+      padding: 10px;
+    }
+    .head2 {
+      display: flex;
+      align-items: center;
+      h2 {
+        margin-left: 5px;
+      }
+    }
+  }
+  .express {
+    margin-top: 15px;
+    width: 158px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 4);
+  }
+  .express1 {
+    padding: 10px;
+  }
+  .contain {
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    div {
+      background-color: rgb(199, 199, 4);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 12px;
+      border-radius: 10px;
+      h4 {
+        padding-bottom: 10px;
+      }
+      h2 {
+        padding-bottom: 10px;
+      }
+      p {
+        padding-bottom: 5px;
+        color: rgb(219, 218, 218);
+      }
+    }
+    button {
+      width: 120px;
+      padding: 10px;
+    }
+  }
+  h4 {
+    color: white;
+  }
+}
+
+.three {
+  .header {
+    padding: 10px;
+  }
+  .heads {
+    background-color: rgb(172, 3, 3);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    h3 {
+      color: white;
+    }
+    p {
+      color: aqua;
+    }
+  }
+  .head1 {
+    display: flex;
+    padding: 10px;
+    button {
+      width: 100px;
+      padding: 10px;
+    }
+    .head2 {
+      display: flex;
+      align-items: center;
+      h2 {
+        margin-left: 5px;
+      }
+    }
+  }
+  .express {
+    margin-top: 15px;
+    width: 158px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(172, 3, 3);
+  }
+  .express1 {
+    padding: 10px;
+  }
+  .contain {
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    div {
+      background-color: rgb(172, 3, 3);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 12px;
+      border-radius: 10px;
+      h4 {
+        padding-bottom: 10px;
+      }
+      h2 {
+        padding-bottom: 10px;
+      }
+      p {
+        padding-bottom: 5px;
+        color: rgb(219, 218, 218);
+      }
+    }
+    button {
+      width: 120px;
+      padding: 10px;
+    }
+  }
+  h4 {
+    color: white;
+  }
+}
+.four {
+  .header {
+    padding: 10px;
+  }
+  .heads {
+    background-color: rgb(5, 5, 212);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    h3 {
+      color: white;
+    }
+    p {
+      color: aqua;
+    }
+  }
+  .head1 {
+    display: flex;
+    padding: 10px;
+    button {
+      width: 100px;
+      padding: 10px;
+    }
+    .head2 {
+      display: flex;
+      align-items: center;
+      h2 {
+        margin-left: 5px;
+      }
+    }
+  }
+  .express {
+    margin-top: 15px;
+    width: 158px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 212);
+  }
+  .express1 {
+    padding: 10px;
+  }
+  .contain {
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    div {
+      background-color: rgb(5, 5, 212);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 12px;
+      border-radius: 10px;
+      h4 {
+        padding-bottom: 10px;
+      }
+      h2 {
+        padding-bottom: 10px;
+      }
+      p {
+        padding-bottom: 5px;
+        color: rgb(219, 218, 218);
+      }
+    }
+    button {
+      width: 120px;
+      padding: 10px;
+    }
+  }
+  h4 {
+    color: white;
+  }
+}
+.three {
+  display: none;
+}
+.four {
+  display: none;
+}

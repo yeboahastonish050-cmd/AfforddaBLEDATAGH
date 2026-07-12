@@ -5,23 +5,37 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: white;
+  background-color: rgb(241, 240, 240);
   max-width: 375px;
   min-width: 320px;
+  flex-direction: column;
+  align-items: center;
 }
 .navlinks {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  color: black;
+  color: white;
 
   .fa {
     cursor: pointer;
   }
 }
+
+main {
+  padding: 6.5px;
+}
+
 nav {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
+  height: 50px;
+  background-color: black;
+  margin-bottom: 200px;
 }
 .hr {
   z-index: -1;
@@ -32,7 +46,7 @@ nav {
   height: 100px;
   background-color: black;
   width: 150px;
-  margin-top: -760px;
+  margin-top: -840px;
   margin-left: 220px;
   ul a {
     text-decoration: none;
@@ -47,7 +61,7 @@ nav {
 }
 .header {
   z-index: -1;
-
+  margin-top: 70px;
   h2 {
     color: black;
     margin-top: 20px;
@@ -88,13 +102,13 @@ button {
   }
 }
 .footer {
-  margin-top: 16px;
   background-color: black;
   color: white;
   text-align: center;
   font-size: 16px;
-  position: fixed;
   width: 100%;
+  padding: 20px;
+  margin-top: 25px;
 }
 .artime {
   width: 150px;
@@ -103,16 +117,15 @@ button {
   margin-top: 10px;
   .mtn {
     width: 65px;
-    height:75px;
+    height: 75px;
   }
   .mtn1 {
     width: 64px;
     border: 1px solid black;
   }
-  .mtn2{
+  .mtn2 {
     width: 60px;
     height: 50px;
-    
   }
 }
 .artime1 {
@@ -121,7 +134,7 @@ button {
 .MTN {
   margin-top: 10px;
   width: 150px;
-  border: 2px solid red;
+  border: 2px solid #dc2626;
 }
 .MTN1 {
   cursor: pointer;
@@ -135,7 +148,7 @@ button {
 .MTN2 {
   width: 150px;
   padding-bottom: 32px;
-  border: 2px solid red;
+  border: 2px solid #dc2626;
   margin-top: 10px;
 }
 .container {
@@ -152,13 +165,33 @@ button {
   .header {
     padding: 10px;
   }
+  .menu {
+    display: none;
+    height: 100px;
+    background-color: black;
+    width: 110px;
+    margin-top: -1440px;
+    margin-left: 210px;
+    ul a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      li {
+        list-style: none;
+        padding: 10px;
+        font-size: 20px;
+      }
+    }
+  }
+
   .heads {
-    background-color: yellow;
+    z-index: -1;
+    background-color: #eab308;
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
     margin-top: 10px;
-    padding: 20px;
+    padding: 5px;
     justify-content: space-evenly;
     align-items: center;
     h3 {
@@ -187,22 +220,23 @@ button {
     margin-top: 15px;
     width: 158px;
     padding: 8px;
-    h3{
-      color:black;
-    }
     border-radius: 10px;
-    background-color: yellow;
+    background-color: #eab308;
+    h4 {
+      color: black;
+    }
   }
   .express1 {
-    padding: 25px;
+    padding: 22px;
   }
   .contain {
+    z-index: -1;
     margin-bottom: 10px;
     display: flex;
     padding: 10px;
     justify-content: space-around;
     div {
-      background-color: yellow;
+      background-color: #eab308;
 
       display: flex;
       justify-content: center;
@@ -212,14 +246,13 @@ button {
       border-radius: 10px;
       h4 {
         padding-bottom: 10px;
-        color:black;
       }
       h2 {
         padding-bottom: 10px;
       }
       p {
         padding-bottom: 5px;
-        color: rgb(219, 218, 218);
+        color: rgb(19, 18, 18);
       }
     }
     button {
@@ -227,15 +260,33 @@ button {
       padding: 10px;
     }
   }
-  
 }
 
 .three {
   .header {
     padding: 10px;
   }
+  .menu {
+    display: none;
+    height: 100px;
+    background-color: black;
+    width: 110px;
+    margin-top: -1440px;
+    margin-left: 210px;
+    ul a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      li {
+        list-style: none;
+        padding: 10px;
+        font-size: 20px;
+      }
+    }
+  }
+
   .heads {
-    background-color: red;
+    background-color: #dc2626;
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
@@ -270,18 +321,19 @@ button {
     width: 158px;
     padding: 8px;
     border-radius: 10px;
-    background-color: red;
+    background-color: #dc2626;
   }
   .express1 {
-    padding: 25px;
+    padding: 22px;
   }
   .contain {
+    z-index: -1;
     margin-bottom: 10px;
     display: flex;
     padding: 10px;
     justify-content: space-around;
     div {
-      background-color: red;
+      background-color: #dc2626;
 
       display: flex;
       justify-content: center;
@@ -313,8 +365,27 @@ button {
   .header {
     padding: 10px;
   }
+  .menu {
+    display: none;
+    height: 100px;
+    background-color: black;
+    width: 110px;
+    margin-top: -1440px;
+    margin-left: 210px;
+    ul a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      li {
+        list-style: none;
+        padding: 10px;
+        font-size: 20px;
+      }
+    }
+  }
+
   .heads {
-    background-color: blue;
+    background-color: #1d4ed8;
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
@@ -349,18 +420,19 @@ button {
     width: 158px;
     padding: 8px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #1d4ed8;
   }
   .express1 {
-    padding: 25px;
+    padding: 22px;
   }
   .contain {
+    z-index: -1;
     margin-bottom: 10px;
     display: flex;
     padding: 10px;
     justify-content: space-around;
     div {
-      background-color: blue;
+      background-color: #1d4ed8;
 
       display: flex;
       justify-content: center;
@@ -393,4 +465,237 @@ button {
 }
 .four {
   display: none;
+}
+.submenu {
+  background-color: black;
+  border-radius: 10px;
+  height: 400px;
+  display: none;
+  .navs {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      color: rgb(222, 221, 221);
+      padding-bottom: 8px;
+    }
+    h4 {
+      color: white;
+    }
+  }
+  button {
+    width: 30px;
+    border-radius: 50%;
+  }
+  .extral1 {
+    margin-top: 30px;
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .extral {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    h4 {
+      color: white;
+    }
+    p {
+      color: rgb(93, 93, 93);
+    }
+  }
+  form {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    label {
+      color: white;
+    }
+    input {
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: rgb(149, 148, 148);
+    }
+    .sub {
+      background-color: rgb(127, 178, 248);
+      background-origin: none;
+    }
+  }
+}
+#five {
+  display: none;
+  .pay {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    img {
+      width: 50px;
+    }
+  }
+  .mob {
+    .mobile {
+      display: flex;
+      justify-content: center;
+      padding-top: 40px;
+      padding-bottom: 50px;
+    }
+    p {
+      padding: 25px;
+      line-height: 1.5;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    .ghana {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border: 2px solid green;
+      padding: 5px;
+      margin-bottom: 20px;
+      img {
+        width: 40px;
+        margin-left: 10px;
+      }
+      input {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        box-shadow: 0px;
+      }
+    }
+    .provide {
+      display: flex;
+      select {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        padding-left: 10px;
+      }
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      background-color: green;
+      color: white;
+      border: 1px solid green;
+      margin-bottom: 80px;
+    }
+  }
+  .cancel {
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    button {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: rgb(251, 189, 189);
+      border: 1px solid rgb(251, 189, 189);
+    }
+  }
+  .secure {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    .pay1 {
+      font-weight: bold;
+    }
+    p {
+      margin-left: 5px;
+    }
+  }
+}
+#six {
+  display: flex;
+  flex-direction: column;
+  display: none;
+  .pay {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    img {
+      width: 50px;
+    }
+  }
+  .mob {
+    .mobile {
+      display: flex;
+      justify-content: center;
+      padding-top: 40px;
+      padding-bottom: 50px;
+    }
+    p {
+      padding: 25px;
+      line-height: 1.5;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+  }
+  .pay2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    button {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid gray;
+      color: gray;
+      margin-bottom: 30px;
+    }
+  }
+
+  .cancel {
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    button {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: rgb(250, 220, 220);
+      border: 1px solid rgb(246, 229, 229);
+      margin-top: 80px;
+    }
+  }
+  .secure {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    .pay1 {
+      font-weight: bold;
+    }
+    p {
+      margin-left: 5px;
+    }
+  }
 }

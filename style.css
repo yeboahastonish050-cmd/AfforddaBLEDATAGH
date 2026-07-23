@@ -26,7 +26,49 @@ body {
 main {
   padding: 6.5px;
 }
-
+#seven {
+  display: none;
+  padding-top: 0px;
+  h2 {
+    padding-bottom: 20px;
+  }
+  p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+  }
+  table {
+    margin-top: 40px;
+    padding: 10px;
+    th {
+      padding: 10px;
+    }
+    td {
+      padding: 10px;
+    }
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    width: 120px;
+    margin-top: -520px;
+    margin-left: 240px;
+    border-radius: 10px;
+    button {
+      width: 100px;
+      border-radius: 0px;
+      background-color: black;
+      color: white;
+      padding: 10px;
+    }
+    button:hover {
+      color: blue;
+    }
+  }
+}
 nav {
   z-index: 1;
   position: fixed;
@@ -43,20 +85,24 @@ nav {
 }
 .menu {
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100px;
   background-color: black;
-  width: 150px;
+  width: 120px;
   margin-top: -840px;
-  margin-left: 220px;
-  ul a {
-    text-decoration: none;
+  margin-left: 230px;
+  border-radius: 10px;
+  button {
+    width: 100px;
+    border-radius: 0px;
+    background-color: black;
     color: white;
-    font-size: 20px;
-    li {
-      list-style: none;
-      padding: 10px;
-      font-size: 20px;
-    }
+    padding: 10px;
+  }
+  button:hover {
+    color: blue;
   }
 }
 .header {
@@ -113,19 +159,20 @@ button {
 .artime {
   width: 150px;
   border: 2px solid red;
-  padding: 6px;
+  padding: 2px;
   margin-top: 10px;
   .mtn {
-    width: 65px;
-    height: 75px;
+    width: 64px;
+    height: 67px;
   }
   .mtn1 {
     width: 64px;
+    height: 67px;
     border: 1px solid black;
   }
   .mtn2 {
-    width: 60px;
-    height: 50px;
+    width: 64px;
+    height: 67px;
   }
 }
 .artime1 {
@@ -150,6 +197,7 @@ button {
   padding-bottom: 32px;
   border: 2px solid #dc2626;
   margin-top: 10px;
+  background-color: white;
 }
 .container {
   padding-top: 20px;
@@ -162,25 +210,39 @@ button {
 }
 
 .two {
+  z-index: -1;
   .header {
     padding: 10px;
   }
+  .containe1 {
+    display: none;
+    background-color: rgb(87, 87, 87);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(60px);
+    width: 100%;
+    height: 900px;
+    margin-top: -1450px;
+  }
   .menu {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     background-color: black;
-    width: 110px;
-    margin-top: -1440px;
-    margin-left: 210px;
-    ul a {
-      text-decoration: none;
+    width: 120px;
+    margin-top: -1450px;
+    margin-left: 240px;
+    border-radius: 10px;
+    button {
+      width: 100px;
+      border-radius: 0px;
+      background-color: black;
       color: white;
-      font-size: 20px;
-      li {
-        list-style: none;
-        padding: 10px;
-        font-size: 20px;
-      }
+      padding: 10px;
+    }
+    button:hover {
+      color: blue;
     }
   }
 
@@ -263,25 +325,39 @@ button {
 }
 
 .three {
+  z-index: -1;
   .header {
     padding: 10px;
   }
+  .containe1 {
+    display: none;
+    background-color: rgb(87, 87, 87);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(60px);
+    width: 100%;
+    height: 900px;
+    margin-top: -1500px;
+  }
   .menu {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     background-color: black;
-    width: 110px;
-    margin-top: -1440px;
-    margin-left: 210px;
-    ul a {
-      text-decoration: none;
+    width: 120px;
+    margin-top: -1450px;
+    margin-left: 230px;
+    border-radius: 10px;
+    button {
+      width: 100px;
+      border-radius: 0px;
+      background-color: black;
       color: white;
-      font-size: 20px;
-      li {
-        list-style: none;
-        padding: 10px;
-        font-size: 20px;
-      }
+      padding: 10px;
+    }
+    button:hover {
+      color: blue;
     }
   }
 
@@ -362,25 +438,40 @@ button {
   }
 }
 .four {
+  z-index: -1;
   .header {
     padding: 10px;
   }
+  .containe1 {
+    display: none;
+    background-color: rgb(87, 87, 87);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(60px);
+    width: 100%;
+    height: 900px;
+    margin-top: -1450px;
+  }
+
   .menu {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     background-color: black;
-    width: 110px;
-    margin-top: -1440px;
-    margin-left: 210px;
-    ul a {
-      text-decoration: none;
+    width: 120px;
+    margin-top: -1450px;
+    margin-left: 230px;
+    border-radius: 10px;
+    button {
+      width: 100px;
+      border-radius: 0px;
+      background-color: black;
       color: white;
-      font-size: 20px;
-      li {
-        list-style: none;
-        padding: 10px;
-        font-size: 20px;
-      }
+      padding: 10px;
+    }
+    button:hover {
+      color: blue;
     }
   }
 
@@ -467,10 +558,14 @@ button {
   display: none;
 }
 .submenu {
-  background-color: black;
+  z-index: 1000;
+  background: rgb(0, 0, 0.3);
   border-radius: 10px;
   height: 400px;
   display: none;
+  position: fixed;
+  backdrop-filter: blur(6px);
+
   .navs {
     padding: 10px;
     display: flex;
@@ -524,8 +619,13 @@ button {
       color: rgb(149, 148, 148);
     }
     .sub {
+      display: flex;
       background-color: rgb(127, 178, 248);
-      background-origin: none;
+      cursor: pointer;
+      button {
+        width: 100%;
+        padding: 10px;
+      }
     }
   }
 }
@@ -644,6 +744,7 @@ button {
       width: 50px;
     }
   }
+
   .mob {
     .mobile {
       display: flex;
@@ -686,6 +787,10 @@ button {
       border: 1px solid rgb(246, 229, 229);
       margin-top: 80px;
     }
+  }
+
+  #amount1 {
+    font-weight: bold;
   }
   .secure {
     display: flex;

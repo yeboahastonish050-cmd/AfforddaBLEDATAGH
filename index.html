@@ -16,8 +16,8 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <nav>
+  <body id="body1">
+    <nav id="navs">
       <div class="navlinks">
         <h2>AffordableDataGh</h2>
         <i class="fa fa-bars" id="menu"></i>
@@ -25,6 +25,7 @@
 
       <hr class="hr" />
     </nav>
+
     <section class="one" id="one">
       <main id="main">
         <div class="header">
@@ -64,24 +65,20 @@
         <div>
           <p>Get deals and updates on WhatsApp</p>
         </div>
-        <button>
+
+        <button id="whatsapp">
           <img class="small" src="images (6).jpeg" alt="images" />Join our
           WhatsApp channel
         </button>
       </div>
       <div class="footer"><h3>&copy; copyright reserved 2026</h3></div>
-
       <div class="menu" id="menu1">
-        <ul>
-          <a href="">
-            <li id="home">Home</li>
-          </a>
-          <a href="#">
-            <li>Contact</li>
-          </a>
-        </ul>
+        <button id="home">Home</button>
+
+        <button>Contact</button>
       </div>
     </section>
+
     <section class="two" id="two">
       <div class="header">
         <label for="">Networks</label>
@@ -123,14 +120,18 @@
           <h1>1GB</h1>
           <p>SHOP PRICE</p>
           <p>5.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('1GB', '5.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>2GB</h1>
           <p>SHOP PRICE</p>
           <p>10.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('2GB', '10.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain">
@@ -139,14 +140,18 @@
           <h1>3GB</h1>
           <p>SHOP PRICE</p>
           <p>15.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('3GB', '15.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>4GB</h1>
           <p>SHOP PRICE</p>
           <p>20.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('4GB', '20.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain">
@@ -155,31 +160,38 @@
           <h1>15GB</h1>
           <p>SHOP PRICE</p>
           <p>70.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('15GB', '70.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>20GB</h1>
           <p>SHOP PRICE</p>
           <p>90.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('20GB', '90.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
-
       <div class="contain" id="contain">
         <div>
           <h4>EXPRESS</h4>
           <h1>25GB</h1>
           <p>SHOP PRICE</p>
           <p>110.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('25GB', '110.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>30GB</h1>
           <p>SHOP PRICE</p>
           <p>130.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('30GB', '130.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain">
@@ -188,28 +200,26 @@
           <h1>40GB</h1>
           <p>SHOP PRICE</p>
           <p>170.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('40GB', '170.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>50GB</h1>
           <p>SHOP PRICE</p>
           <p>220.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('50GB', '220.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
-
       <div class="footer"><h3>&copy; copyright reserved 2026</h3></div>
-
+      <div class="containe1" id="containe1"></div>
       <div class="menu" id="menu2">
-        <ul>
-          <a href="">
-            <li id="home">Home</li>
-          </a>
-          <a href="#">
-            <li>Contact</li>
-          </a>
-        </ul>
+        <button id="home1">Home</button>
+
+        <button>Contact</button>
       </div>
     </section>
     <section class="three" id="three">
@@ -253,14 +263,18 @@
           <h1>1GB</h1>
           <p>SHOP PRICE</p>
           <p>5.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('1GB', '5.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>2GB</h1>
           <p>SHOP PRICE</p>
           <p>10.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('2GB', '10.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain1">
@@ -269,14 +283,18 @@
           <h1>3GB</h1>
           <p>SHOP PRICE</p>
           <p>15.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('3GB', '15.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>4GB</h1>
           <p>SHOP PRICE</p>
           <p>20.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('4GB', '20.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain1">
@@ -285,31 +303,38 @@
           <h1>15GB</h1>
           <p>SHOP PRICE</p>
           <p>70.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('15GB', '70.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>20GB</h1>
           <p>SHOP PRICE</p>
           <p>90.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('20GB', '90.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
-
       <div class="contain" id="contain1">
         <div>
           <h4>EXPRESS</h4>
           <h1>25GB</h1>
           <p>SHOP PRICE</p>
           <p>110.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('25GB', '110.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>30GB</h1>
           <p>SHOP PRICE</p>
           <p>130.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('30GB', '130.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain1">
@@ -318,28 +343,26 @@
           <h1>40GB</h1>
           <p>SHOP PRICE</p>
           <p>170.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('40GB', '170.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>50GB</h1>
           <p>SHOP PRICE</p>
           <p>220.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('50GB', '220.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
-
       <div class="footer"><h3>&copy; copyright reserved 2026</h3></div>
-
+      <div class="containe1" id="containe2"></div>
       <div class="menu" id="menu3">
-        <ul>
-          <a href="">
-            <li id="home">Home</li>
-          </a>
-          <a href="">
-            <li>Contact</li>
-          </a>
-        </ul>
+        <button id="home2">Home</button>
+
+        <button>Contact</button>
       </div>
     </section>
     <section class="four" id="four">
@@ -383,14 +406,18 @@
           <h1>1GB</h1>
           <p>SHOP PRICE</p>
           <p>5.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('1GB', '5.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>2GB</h1>
           <p>SHOP PRICE</p>
           <p>10.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('2GB', '10.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain2">
@@ -399,14 +426,18 @@
           <h1>3GB</h1>
           <p>SHOP PRICE</p>
           <p>15.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('3GB', '15.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>4GB</h1>
           <p>SHOP PRICE</p>
           <p>20.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('4GB', '20.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain2">
@@ -415,31 +446,38 @@
           <h1>15GB</h1>
           <p>SHOP PRICE</p>
           <p>70.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('15GB', '70.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>20GB</h1>
           <p>SHOP PRICE</p>
           <p>90.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('20GB', '90.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
-
       <div class="contain" id="contain2">
         <div>
           <h4>EXPRESS</h4>
           <h1>25GB</h1>
           <p>SHOP PRICE</p>
           <p>110.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('25GB', '110.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>30GB</h1>
           <p>SHOP PRICE</p>
           <p>130.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('30GB', '130.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="contain" id="contain2">
@@ -448,30 +486,28 @@
           <h1 id="Data1">40GB</h1>
           <p>SHOP PRICE</p>
           <p>170.00 cedis</p>
-          <button id="cart"><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('40GB', '170.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
         <div>
           <h4>EXPRESS</h4>
           <h1>50GB</h1>
           <p>SHOP PRICE</p>
           <p>220.00 cedis</p>
-          <button><i class="fa fa-cart-shopping"></i>Buy Now</button>
+          <button onclick="alpha('50GB', '220.00 cedis')">
+            <i class="fa fa-cart-shopping"></i>Buy Now
+          </button>
         </div>
       </div>
       <div class="footer"><h3>&copy; copyright reserved 2026</h3></div>
-
+      <div class="containe1" id="containe3"></div>
       <div class="menu" id="menu4">
-        <ul>
-          <a href="">
-            <li id="home">Home</li>
-          </a>
-          <a href="#">
-            <li>Contact</li>
-          </a>
-        </ul>
+        <button id="home3">Home</button>
+
+        <button>Contact</button>
       </div>
     </section>
-
     <section id="five">
       <div class="pay">
         <img src="download (4).png" alt="download" />
@@ -484,10 +520,11 @@
         <div class="mobile"><i class="fa fa-mobile-screen-button"></i></div>
         <p>Enter your mobile money number and provider to start the payment</p>
       </div>
-      <form action="">
+      <form action="" onsubmit="return false;">
         <div class="ghana">
           <input
             type="tel"
+            id="phone"
             placeholder="0552158204"
             pattern="0[2-5]{1}[0-9]{8}"
             required
@@ -495,17 +532,17 @@
           <img src="download (5).png" alt="download" />
         </div>
         <div class="provide">
-          <select name="" id="">
-            Choose Provider
-            <option value="">MTN</option>
-            <option value="">TELECEL</option>
-            <option value="">AIRTELTIGO</option>
+          <select name="network" id="nets">
+            <option value="null">Choose Provider</option>
+            <option value="MTN" id="opt">MTN</option>
+            <option value="TELECEL" id="opt">TELECEL</option>
+            <option value="AIRTELTIGO" id="opt">AIRTELTIGO</option>
           </select>
         </div>
-        <button>Confirm</button>
+        <button type="button" onclick="confirm()">Confirm</button>
       </form>
       <div class="cancel">
-        <button>x Cancel Payment</button>
+        <button type="button" onclick="Cancel()">x Cancel Payment</button>
       </div>
       <div class="secure">
         <i class="fa fa-lock"></i>
@@ -517,7 +554,7 @@
         <img src="download (4).png" alt="download" />
         <div class="amount1">
           <p>alfredyeboah047@gmail.com</p>
-          <p class="amount">Pay <span id="amount"></span></p>
+          <p class="amount">Pay <span id="amount1"></span></p>
         </div>
       </div>
       <div class="mob">
@@ -528,56 +565,59 @@
         </p>
       </div>
       <div class="pay2">
-        <button>I've completed the payment</button>
+        <button onclick="Complete()">I've completed the payment</button>
         <p>Cancel</p>
       </div>
       <div class="cancel">
-        <button>x Cancel Payment</button>
+        <button onclick="Cancel1()">x Cancel Payment</button>
       </div>
       <div class="secure">
         <i class="fa fa-lock"></i>
         <p>Secured by <span class="pay1">paystack</span></p>
       </div>
     </section>
-    <div class="submenu">
-      <div class="navs">
-        <div>
-          <p>confirm purchase</p>
-          <h4>bundle details</h4>
-        </div>
-        <div>
-          <button>x</button>
-        </div>
+    <section id="seven">
+      <h2>Data Summary</h2>
+      <p>This is the results of the data that you have purchased</p>
+      <table border="4px">
+        <tr>
+          <th>Personal Information</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Data Package</td>
+          <td><span id="data2"></span></td>
+        </tr>
+        <tr>
+          <td>Network</td>
+          <td><span id="net"></span></td>
+        </tr>
+        <tr>
+          <td>Recipient Number</td>
+          <td><span id="rnumb"></span></td>
+        </tr>
+        <tr>
+          <td>Sender's Number</td>
+          <td><span id="snumb"></span></td>
+        </tr>
+        <tr>
+          <td>Amount payed</td>
+          <td><span id="payed"></span></td>
+        </tr>
+        <tr>
+          <td>Date</td>
+          <td><span id="date"></span></td>
+        </tr>
+      </table>
+
+      <div class="menu" id="menu5">
+        <button id="home4">Home</button>
+
+        <button>Contact</button>
       </div>
-      <hr />
-      <div class="extral1">
-        <div class="extral">
-          <p>Network</p>
-          <p>Package</p>
-          <p>Price</p>
-        </div>
-        <div class="extral">
-          <h4>EXPRESS</h4>
-          <h4 id="Data"></h4>
-          <h4 id="price"></h4>
-        </div>
-      </div>
-      <form action="">
-        <label for="number">Recipient Phone Number</label>
-        <input
-          type="tel"
-          name=""
-          id="number"
-          placeholder="0552158204"
-          pattern="0[2-5]{1}[0-9]{8}"
-          required
-        />
-        <p>
-          Data will be sent directly to this number. Double-check before paying.
-        </p>
-        <input type="submit" class="sub" id="sub" value="paying" />
-      </form>
-    </div>
+    </section>
+
+    <div class="submenu" id="submenu"></div>
     <script src="data.js"></script>
   </body>
 </html>
